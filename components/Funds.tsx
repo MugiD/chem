@@ -2,18 +2,11 @@ import React from "react";
 
 const Funds = () => {
   return (
-    <div className="mb-5 flex flex-col justify-center items-center gap-y-5">
+    <div className="mb-5 flex flex-col justify-center items-center gap-y-5 bg-gray-100">
       <h1 className="font-bold text-4xl mt-4 border-b-orange-400 border-b-4 max-w-max">
-        
+        Қажетті инвестиция
       </h1>
-      <div className="flex justify-center gap-20 items-center text-lg">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="https://img-fotki.yandex.ru/get/95493/68146596.8b/0_108ca4_fc510656_XXXL.jpg"
-          alt="Shouin"
-          className="w-[30%]"
-        />
-        <p className="w-[30%]">
+        <p className="mx-auto w-[80%]">
           Біз құю цехының өнімділігі 0,2-0,35 т/сағ күмбезді пайдаланған кездегі
           рентабельділігін анықтауға тырысамыз. Мұндай пештің қуат тұтынуы 2
           кВт/сағ құрайды. Ол шойынның бірнеше түрін - құю, модификацияланған
@@ -25,11 +18,10 @@ const Funds = () => {
           жеткізу және орнату, сонымен қатар қызметкерлерді оқыту құнын қамтиды.
           Өндірістік үй-жайларды жалға алу және оларды жабдықты орнатуға
           дайындау, сондай-ақ құрал-саймандарды, комбинезондарды және сол
-          сияқтыларды сатып алу – 338524 теңге. Барлығы қажетті инвестиция
-          көлемі 37237703 теңгені құрайды.
+          сияқтыларды сатып алу – 338524 теңге. <span className="text-orange-400 font-bold">Барлығы қажетті инвестиция
+          көлемі 37237703 теңгені құрайды.</span>
         </p>
       </div>
-    </div>
   );
 };
 
