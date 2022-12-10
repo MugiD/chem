@@ -1,5 +1,7 @@
 import Transport from "../components/Transport";
 import Location from "../components/Location";
+import Importance from '../components/Importance'
+import Funds from "../components/Funds";
 
 const General = () => {
   return (
@@ -9,8 +11,10 @@ const General = () => {
           ШОЙЫН ӨНДІРІСІ <br /> ТУРАЛЫ
         </h1>
       </div>
+      <Importance />
       <Location />
       <Transport />
+      <Funds />
     </div>
   );
 };
